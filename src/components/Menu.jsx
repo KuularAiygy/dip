@@ -7,6 +7,9 @@ function Menu(){
         }}>
             <div>Главная</div>
             <div>Новости</div>
+            <div>Новости</div>
+            <div>Новости</div>
+            <div>Новости</div>
             <div>О нас</div>
         </div>
     )

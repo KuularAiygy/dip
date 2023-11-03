@@ -1,7 +1,12 @@
 function Glavnaya(){
     return(
         <div>
-            jsdfhksjhfksjfhskdjfhskjfhksjdhfksdhfksjh
+            jsdfhksjhfksjfhskdjfhskjfhksjdhfksdhfksjhмс 
+            jsdfhksjhfksjfhskdjfhskjfhksjdhfksdhfksjhмс 
+            jsdfhksjhfksjfhskdjfhskjfhksjdhfksdhfksjhмс 
+            jsdfhksjhfksjfhskdjfhskjfhksjdhfksdhfksjhмс 
+
+
         </div>
     )
 }
