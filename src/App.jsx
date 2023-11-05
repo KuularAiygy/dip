@@ -3,7 +3,6 @@ import About from './components/About'
 import Home from './components/Home'
 import Layout from './layout/layout'
 
-
 function App() {
   
   return (

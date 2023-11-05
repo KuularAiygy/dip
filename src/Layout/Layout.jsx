@@ -3,11 +3,11 @@ import { Link, Outlet } from "react-router-dom"
 function Layout(){
     return (
         <>
-               <div>
-                    <div> <Link to="/">Главная</Link></div>
-                    <div> <Link to="/about">О нас</Link></div>
+               <div className="menu">
+                    <Link to="/" className="llink">Главная</Link>
+                    <Link to="/about" className="llink">О нас</Link>
                 </div>
-                <main>
+                <main >
                     <Outlet/>
                 </main>
                 <footer>sadasdassda</footer>

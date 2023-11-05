@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.llink{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    transition: .5s all;
+}
+.llink:hover{
+    transition: .5s all;
+    color: royalblue;
+
+}
+.menu{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+
+}
+
+/* --------------------- */
+
+.home-1{
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(111.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.home-1-body{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
