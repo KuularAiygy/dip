@@ -1,12 +1,19 @@
-import Menu from './components/Menu'
-import Glavnaya from './components/Glavnaya'
+import { Routes, Route } from 'react-router-dom'
+import About from './components/About'
+import Home from './components/Home'
+import Layout from './layout/layout'
+
 
 function App() {
   
   return (
     <>
-    <Menu/>
-    <Glavnaya/>
+      <Routes>
+          <Route path='/' element={ <Layout /> }>
+            <Route index element={ <Home/> } />
+            <Route path='about' element={ <About/> } />
+          </Route>
+      </Routes>
     </>
   )
 }
